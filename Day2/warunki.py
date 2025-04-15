@@ -61,5 +61,10 @@ rabat = 25 if suma_zam > 100 else 0
 print(f"Rabat wynosi {rabat}")
 
 ###########################
-#napisac program test z ...
-
+# napisac program test z ...
+print("Czy jesteś wysoki?")
+h = 185
+if h > 185:
+    odp = True
+else:
+    odp = False

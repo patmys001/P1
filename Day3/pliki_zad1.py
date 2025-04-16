@@ -26,9 +26,9 @@ with open("test.log", "a", encoding="utf-8") as fh:
     fh.write("LOL\n")
     fh.write("LOL\n")
     fh.write("LOL\n")
+    fh.write("LĄĄŁŚŚL\n")
     fh.write("LŚŚŚL\n")
-    fh.write("LŚŚŚL\n")
-    fh.write("LŚŚŚL\n")
+    fh.write("LŹĆŚL\n")
     fh.write("LŚŚŚL\n")
 with open("test.log", "r", encoding="utf-8") as file:
     lines = file.read()

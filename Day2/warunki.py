@@ -68,4 +68,39 @@ if h > 185:
     odp = True
 else:
     odp = False
+# odp = input("Podaj datę chrztu Polski")  # str
+# if odp.strip().casefold() == "966":
+#     print("dobrze")
+#     punkty += 1  # punkty = punkty + 1
+# else:
+#     print("Idź sie pouczyć")
+#
+# print("Zdobyte punkty:", punkty)
+print(30 * "#")
+# symulacja systemu zbierania logów
+# zmienna będzie zawierac jaki system
+# email, console, inny
+# console -> "Stało się cos strasznego"
+# email -> "System email"
+# jeżeli system email to do listy błędów ma dodac  opis błedu
+# zmienna dodatkowa -> error, medium, inny
+
+print("Wpisz z czego chcesz logi: console lub email")
+odp = input("Z czego chcesz logi?")
+error_level = "error"
+lista_bledow = []
+if odp.strip().casefold() == "console":
+    print("Stało się coś strasznego")
+elif odp.strip().casefold() == "email":
+    print("System email")
+    if error_level=="error":
+        lista_bledow.append("Krytyczny")
+    elif error_level=="medium":
+        lista_bledow.append("Ostrzeżenie")
+    else:
+        print("Inny błąd")
+else:
+    print("Inny system logów...")
+print(lista_bledow)
+print(30*"#")
 

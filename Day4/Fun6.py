@@ -23,3 +23,4 @@ def liczby(name=None, *cyfry):  # rozpakowanie krotki
 liczby()
 liczby(1, 2, 3, 4, 4, 5, 3, 3, 3, 2, 1)
 liczby("Radek", 1, 2, 3, 6, 6, 6)
+

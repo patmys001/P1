@@ -21,4 +21,3 @@ print(type(jsno_text))
 dict_json = json.loads(jsno_text)
 print(dict_json)
 print(type(dict_json))
-

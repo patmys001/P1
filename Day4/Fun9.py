@@ -64,3 +64,6 @@ print(f"Zastosowanie filter(){list(filter(lambda x: x < 6, lista))}")
 print(f"Zastosowanie filter(){list(filter(lambda x: x > 20 and x < 200, lista))}")
 print(f"Zastosowanie filter(){list(filter(lambda x: x > 20 and x < 200, lista))}")
 
+#####################
+print(40*"#")
+#####################

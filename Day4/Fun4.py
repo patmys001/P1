@@ -1,4 +1,5 @@
 # funkcja wew. zagnieżdżona
+# dekoratory
 def fun1():
     print("to jest fun1")
 
